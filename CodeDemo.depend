@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1371626519 source:/home/nomeats/Code/CodeDemo/CodeDemo.cpp
+	<stdio.h>
+	<malloc.h>
+	<memory.h>
+	<sys/stat.h>
+	<iostream>
+	"CodeDemo.h"
+	"plamadp.h"
+
+1371621938 /home/nomeats/Code/CodeDemo/CodeDemo.h
+	"typedef.h"
+
+1371629691 /home/nomeats/Code/CodeDemo/typedef.h
+
+1371613452 /home/nomeats/Code/CodeDemo/plamadp.h
+	<malloc.h>
+	<memory.h>
+	"typedef.h"
+

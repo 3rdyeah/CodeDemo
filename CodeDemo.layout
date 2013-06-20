@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="CodeDemo.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="1897" topLine="91" />
+	</File>
+	<File name="CodeDemo.h" open="1" top="0" tabpos="3">
+		<Cursor position="116" topLine="0" />
+	</File>
+	<File name="plamadp.h" open="1" top="0" tabpos="4">
+		<Cursor position="106" topLine="3" />
+	</File>
+	<File name="typedef.h" open="1" top="0" tabpos="1">
+		<Cursor position="643" topLine="29" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,121 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+GetGraph	CodeDemo.cpp	/^GRAPHGROUP* GetGraph(PLAMAREA* tPlamArea)$/;"	f
+GetLayer	CodeDemo.cpp	/^LAYERGROUP* GetLayer(PLAMAREA* tPlamArea)$/;"	f
+GetLevelData	CodeDemo.cpp	/^LEVELDATA* GetLevelData(E_MTYPE eLevel)$/;"	f
+GetMapData	CodeDemo.cpp	/^void GetMapData(E_MTYPE eLevel, I4 nAreaX, I4 nAreaY)$/;"	f
+GetMapFilePath	CodeDemo.cpp	/^C1* GetMapFilePath(E_MTYPE eLevel, I4 nAreaX, I4 nAreaY)$/;"	f
+GetMapPath	CodeDemo.cpp	/^C1* GetMapPath(E_MTYPE eLevel, I4 nLongitude, I4 Latitude)$/;"	f
+MAPPATH_LEN	CodeDemo.cpp	5;"	d	file:
+main	CodeDemo.cpp	/^int main()$/;"	f
+CODEDEMO_H_INCLUDED	CodeDemo.h	2;"	d
+GET_FILE_BY_COOR	CodeDemo.h	12;"	d
+PLAM_DEBUG_MODE	CodeDemo.h	11;"	d
+PLAM_LOG_O	CodeDemo.h	28;"	d
+PLAM_LOG_O	CodeDemo.h	30;"	d
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+PlamFree	PlamAdp.h	/^void PlamFree(void *pBuffer)$/;"	f
+PlamLogOut	PlamAdp.h	/^void PlamLogOut(C1* format, ... )$/;"	f
+PlamMalloc	PlamAdp.h	/^void *PlamMalloc(I4 nLen)$/;"	f
+PlamPrint	PlamAdp.h	9;"	d
+__PLAMADP_H__	PlamAdp.h	2;"	d
+g_alloc_sum	PlamAdp.h	/^I4 g_alloc_sum = 0;$/;"	v
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+AREAHEADER	typedef.h	/^} AREAHEADER;$/;"	t	typeref:struct:_AREAHEADER
+C1	typedef.h	/^typedef char C1;$/;"	t
+CIRVAL	typedef.h	6;"	d
+CharFlag	typedef.h	/^    U1 CharFlag; \/\/文字标签$/;"	m	struct:_PLAMAREA
+EXT	typedef.h	7;"	d
+E_MTYPE	typedef.h	/^} E_MTYPE;$/;"	t	typeref:enum:__anon1
+GRAPHDATA	typedef.h	/^    struct GRAPHDATA$/;"	s	struct:_GRAPHGROUP
+GRAPHGROUP	typedef.h	/^} GRAPHGROUP;$/;"	t	typeref:struct:_GRAPHGROUP
+GRAPHHEADER	typedef.h	/^    struct GRAPHHEADER$/;"	s	struct:_GRAPHGROUP
+GRAPHTYPE	typedef.h	/^        struct GRAPHTYPE$/;"	s	struct:_GRAPHGROUP::GRAPHDATA
+GraphFlag	typedef.h	/^    U1 GraphFlag; \/\/图形标签$/;"	m	struct:_PLAMAREA
+I1	typedef.h	/^typedef char I1;$/;"	t
+I2	typedef.h	/^typedef short I2 ;$/;"	t
+I4	typedef.h	/^typedef int I4;$/;"	t
+LATST	typedef.h	5;"	d
+LAYERDATA	typedef.h	/^    struct LAYERDATA$/;"	s	struct:_LAYERGROUP
+LAYERDATA	typedef.h	/^    struct LAYERDATA$/;"	s	struct:_WORDGROUP
+LAYERGROUP	typedef.h	/^} LAYERGROUP;$/;"	t	typeref:struct:_LAYERGROUP
+LAYERHEADER	typedef.h	/^    struct LAYERHEADER$/;"	s	struct:_LAYERGROUP
+LAYERHEADER	typedef.h	/^    struct LAYERHEADER$/;"	s	struct:_WORDGROUP
+LEVELDATA	typedef.h	/^} LEVELDATA;$/;"	t	typeref:struct:_LEVELDATA
+LONGST	typedef.h	4;"	d
+LayerFlag	typedef.h	/^    U1 LayerFlag; \/\/Layer标签$/;"	m	struct:_PLAMAREA
+MANAGERPART	typedef.h	/^} MANAGERPART;$/;"	t	typeref:struct:_MANAGERPART
+MAPDATA	typedef.h	/^} MAPDATA;$/;"	t	typeref:struct:_MAPDATA
+MAPHEADER	typedef.h	/^} MAPHEADER;$/;"	t	typeref:struct:_MAPHEADER
+MAPTYPE	typedef.h	/^} MAPTYPE;$/;"	t	typeref:struct:_MAPTYPE
+PLAMAREA	typedef.h	/^} PLAMAREA;$/;"	t	typeref:struct:_PLAMAREA
+PLAMMAP	typedef.h	/^} PLAMMAP;$/;"	t	typeref:struct:_PLAMMAP
+TYPEDEF_H_INCLUDED	typedef.h	2;"	d
+U1	typedef.h	/^typedef unsigned char U1;$/;"	t
+U2	typedef.h	/^typedef unsigned short U2 ;$/;"	t
+U4	typedef.h	/^typedef unsigned int U4;$/;"	t
+WORDGROUP	typedef.h	/^} WORDGROUP;$/;"	t	typeref:struct:_WORDGROUP
+_AREAHEADER	typedef.h	/^typedef struct _AREAHEADER$/;"	s
+_GRAPHGROUP	typedef.h	/^typedef struct _GRAPHGROUP$/;"	s
+_LAYERGROUP	typedef.h	/^typedef struct _LAYERGROUP$/;"	s
+_LEVELDATA	typedef.h	/^typedef struct _LEVELDATA{$/;"	s
+_MANAGERPART	typedef.h	/^typedef struct _MANAGERPART$/;"	s
+_MAPDATA	typedef.h	/^typedef struct _MAPDATA$/;"	s
+_MAPHEADER	typedef.h	/^typedef struct _MAPHEADER$/;"	s
+_MAPTYPE	typedef.h	/^typedef struct _MAPTYPE$/;"	s
+_PLAMAREA	typedef.h	/^typedef struct _PLAMAREA$/;"	s
+_PLAMMAP	typedef.h	/^typedef struct _PLAMMAP$/;"	s
+_WORDGROUP	typedef.h	/^typedef struct _WORDGROUP$/;"	s
+areasumX	typedef.h	/^    U1 areasumX;$/;"	m	struct:_MAPHEADER
+areasumY	typedef.h	/^    U1 areasumY;$/;"	m	struct:_MAPHEADER
+cLvFlag	typedef.h	/^    C1 cLvFlag;$/;"	m	struct:_LEVELDATA
+data	typedef.h	/^    C1 data[100];$/;"	m	struct:_AREAHEADER
+dataChar	typedef.h	/^    C1 dataChar;$/;"	m	struct:_MAPTYPE
+dataCorr	typedef.h	/^    U1 dataCorr;$/;"	m	struct:_MAPHEADER
+dataType	typedef.h	/^    U1 dataType;$/;"	m	struct:_MAPTYPE
+dataVer	typedef.h	/^    U1 dataVer;$/;"	m	struct:_MAPHEADER
+eLevel	typedef.h	/^    E_MTYPE eLevel;$/;"	m	struct:_LEVELDATA
+e_mtype_i	typedef.h	/^    e_mtype_i = 1,$/;"	e	enum:__anon1
+e_mtype_j	typedef.h	/^    e_mtype_j,$/;"	e	enum:__anon1
+e_mtype_k	typedef.h	/^    e_mtype_k,$/;"	e	enum:__anon1
+e_mtype_l	typedef.h	/^    e_mtype_l,$/;"	e	enum:__anon1
+e_mtype_m	typedef.h	/^    e_mtype_m,$/;"	e	enum:__anon1
+e_mtype_n	typedef.h	/^    e_mtype_n,$/;"	e	enum:__anon1
+e_mtype_o	typedef.h	/^    e_mtype_o,$/;"	e	enum:__anon1
+e_mtype_p	typedef.h	/^    e_mtype_p,$/;"	e	enum:__anon1
+e_mtype_q	typedef.h	/^    e_mtype_q,$/;"	e	enum:__anon1
+formatCorr	typedef.h	/^    U1 formatCorr;$/;"	m	struct:_MAPHEADER
+formatType	typedef.h	/^    C1 formatType[4];$/;"	m	struct:_MAPHEADER
+formatVer	typedef.h	/^    U1 formatVer;$/;"	m	struct:_MAPHEADER
+maptypeChar	typedef.h	/^    C1 maptypeChar;$/;"	m	struct:_MAPTYPE
+nAreaDataSize	typedef.h	/^    U4 nAreaDataSize; \/\/区域地图数据Size$/;"	m	struct:_MAPDATA
+nAreaH	typedef.h	/^    I4 nAreaH;$/;"	m	struct:_LEVELDATA
+nAreaInfo	typedef.h	/^    U4 nAreaInfo[16]; \/\/区域信息*16$/;"	m	struct:_MAPDATA
+nAreaW	typedef.h	/^    I4 nAreaW;$/;"	m	struct:_LEVELDATA
+nDataOffset	typedef.h	/^    U4 nDataOffset;$/;"	m	struct:_MANAGERPART
+nMapBase	typedef.h	/^    I4 nMapBase;$/;"	m	struct:_LEVELDATA
+nMapCodeX	typedef.h	/^    U2 nMapCodeX;$/;"	m	struct:_MANAGERPART
+nMapCodeY	typedef.h	/^    U2 nMapCodeY;$/;"	m	struct:_MANAGERPART
+nRangeH	typedef.h	/^    I4 nRangeH;$/;"	m	struct:_LEVELDATA
+nRangeW	typedef.h	/^    I4 nRangeW;$/;"	m	struct:_LEVELDATA
+rWordGroup	typedef.h	/^    WORDGROUP rWordGroup; \/\/文字信息$/;"	m	struct:_PLAMAREA
+reserved	typedef.h	/^    C1 reserved;$/;"	m	struct:_MAPHEADER
+seriesCode	typedef.h	/^    U1 seriesCode;$/;"	m	struct:_MAPTYPE
+tAreaHeader	typedef.h	/^    AREAHEADER tAreaHeader; \/\/区域Header$/;"	m	struct:_PLAMAREA
+tGraphData	typedef.h	/^    } tGraphData;$/;"	m	struct:_GRAPHGROUP	typeref:struct:_GRAPHGROUP::GRAPHDATA
+tGraphGroup	typedef.h	/^    GRAPHGROUP tGraphGroup; \/\/图形信息$/;"	m	struct:_PLAMAREA
+tGraphType	typedef.h	/^        } tGraphType;$/;"	m	struct:_GRAPHGROUP::GRAPHDATA	typeref:struct:_GRAPHGROUP::GRAPHDATA::GRAPHTYPE
+tLayerData	typedef.h	/^    } tLayerData;$/;"	m	struct:_LAYERGROUP	typeref:struct:_LAYERGROUP::LAYERDATA
+tLayerGroup	typedef.h	/^    LAYERGROUP tLayerGroup; \/\/Layer信息$/;"	m	struct:_PLAMAREA
+tLayerHeader	typedef.h	/^    } tLayerHeader;$/;"	m	struct:_LAYERGROUP	typeref:struct:_LAYERGROUP::LAYERHEADER
+tMapData	typedef.h	/^    MAPDATA tMapData[16]; \/\/地图数据*(n<16)$/;"	m	struct:_PLAMMAP
+tMapHeader	typedef.h	/^    MAPHEADER tMapHeader;$/;"	m	struct:_PLAMMAP
+tMapType	typedef.h	/^    MAPTYPE tMapType;$/;"	m	struct:_MAPHEADER
+tMngPart	typedef.h	/^    MANAGERPART tMngPart[16]; \/\/地图管理数据*16$/;"	m	struct:_PLAMMAP
+tPlamArea	typedef.h	/^    PLAMAREA tPlamArea[16]; \/\/区域数据*16$/;"	m	struct:_MAPDATA
+tShapeHeader	typedef.h	/^    } tShapeHeader;$/;"	m	struct:_GRAPHGROUP	typeref:struct:_GRAPHGROUP::GRAPHHEADER
+tWordData	typedef.h	/^    } tWordData;$/;"	m	struct:_WORDGROUP	typeref:struct:_WORDGROUP::LAYERDATA
+tWordHeader	typedef.h	/^    } tWordHeader;$/;"	m	struct:_WORDGROUP	typeref:struct:_WORDGROUP::LAYERHEADER
+wordCode	typedef.h	/^    U1 wordCode;$/;"	m	struct:_MAPHEADER
