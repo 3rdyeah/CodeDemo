@@ -146,12 +146,7 @@ void GetMapData(E_MTYPE eLevel, I4 nAreaX, I4 nAreaY)
     FILE* hMapFile = NULL;
 
     do{
-        /*
-        if (!(szFilePath = GetMapFilePath(eLevel, nLongitude, Latitude)))
-        {
-            PlamPrint("GetMapPath Failed\n");
-            break;
-        }*/
+        //if (!(szFilePath = GetMapFilePath(eLevel, nLongitude, Latitude)))
         if (!(szFilePath = GetMapFilePath(eLevel, nAreaX, nAreaY)))
         {
             PlamPrint("GetMapPath Failed\n");

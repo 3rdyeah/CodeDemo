@@ -1,6 +1,7 @@
 #ifndef __PLAMADP_H__
 #define __PLAMADP_H__
 
+#include <stdio.h>
 #include <stdarg.h>
 #include <malloc.h>
 #include <memory.h>
